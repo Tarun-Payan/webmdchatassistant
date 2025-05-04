@@ -4,6 +4,11 @@ import dotenv from 'dotenv';
 import { GoogleGenAI } from "@google/genai";
 import xml2js from 'xml2js';
 import axios from 'axios';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 dotenv.config();
 
@@ -496,6 +501,7 @@ Guidelines:
       model: "gemini-2.0-flash",
       contents: prompt,
     });
+    console.log(response.text);
 
     // Format response with valid WebMD links
     const formattedResponse = await formatResponseWithLinks(response.text);
