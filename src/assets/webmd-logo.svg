@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0H120V32H0V0Z" fill="white"/>
+  <path d="M10.4 8.8H13.6V23.2H10.4V8.8Z" fill="#00A0D2"/>
+  <path d="M16.8 8.8H20V23.2H16.8V8.8Z" fill="#00A0D2"/>
+  <path d="M23.2 8.8H26.4V23.2H23.2V8.8Z" fill="#00A0D2"/>
+  <path d="M29.6 8.8H32.8V23.2H29.6V8.8Z" fill="#00A0D2"/>
+  <path d="M36 8.8H39.2V23.2H36V8.8Z" fill="#00A0D2"/>
+  <path d="M42.4 8.8H45.6V23.2H42.4V8.8Z" fill="#00A0D2"/>
+  <path d="M48.8 8.8H52V23.2H48.8V8.8Z" fill="#00A0D2"/>
+  <path d="M55.2 8.8H58.4V23.2H55.2V8.8Z" fill="#00A0D2"/>
+  <path d="M61.6 8.8H64.8V23.2H61.6V8.8Z" fill="#00A0D2"/>
+  <path d="M68 8.8H71.2V23.2H68V8.8Z" fill="#00A0D2"/>
+  <path d="M74.4 8.8H77.6V23.2H74.4V8.8Z" fill="#00A0D2"/>
+  <path d="M80.8 8.8H84V23.2H80.8V8.8Z" fill="#00A0D2"/>
+  <path d="M87.2 8.8H90.4V23.2H87.2V8.8Z" fill="#00A0D2"/>
+  <path d="M93.6 8.8H96.8V23.2H93.6V8.8Z" fill="#00A0D2"/>
+  <path d="M100 8.8H103.2V23.2H100V8.8Z" fill="#00A0D2"/>
+  <path d="M106.4 8.8H109.6V23.2H106.4V8.8Z" fill="#00A0D2"/>
+  <text x="10" y="24" font-family="Arial" font-size="20" font-weight="bold" fill="#00A0D2">WebMD</text>
+</svg> 
