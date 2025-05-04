@@ -9,9 +9,11 @@
     "dev:server": "nodemon server/index.js",
     "dev:client": "vite",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "build": "vite build",
+    "build:client": "vite build",
+    "build:server": "echo 'No build step required for server'",
+    "build": "npm run build:client && npm run build:server",
     "preview": "vite preview",
-    "vercel-build": "echo 'No build step required'"
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "express": "^4.18.2",
