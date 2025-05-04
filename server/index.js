@@ -16,7 +16,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Initialize Google Gemini AI
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY });
 
 // In-memory set of valid WebMD URLs from sitemap
 let webmdSitemapUrls = new Set();
